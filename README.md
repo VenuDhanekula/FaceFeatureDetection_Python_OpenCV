@@ -88,7 +88,7 @@ This is how you can follow the instructions on setting up the project and runnin
 1. get a local copy up and running follow cloning steps.
 
    ```sh
-   git clone https://github.com/VenuDhanekula/ColorDetection_RaspberryPi_Python.git
+   git clone https://github.com/VenuDhanekula/ObjectDetection_RaspberryPi_Python.git
    ```
    
 <!-- USAGE EXAMPLES -->
