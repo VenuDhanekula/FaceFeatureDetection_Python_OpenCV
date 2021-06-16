@@ -33,7 +33,6 @@
         <li><a href="#clone-project">Clone Project</a></li>
       </ul>
     </li>
-    <li><a href="#work-flow">Work Flow</a></li>
     <li><a href="#contact-with-me">Contact</a></li>
     <li><a href="#license">License</a></li>
   </ol>
@@ -56,7 +55,27 @@ Face Detection
   <a >
     <img src="Code/FaceDetection/Images/MultiFaceDetect.png" alt="Logo" width="33%">
   </a>
+  
+Eye Detection
+* Below image gives the output information of the Eye Detection code provided in the above folder. Eyes will be detected and made a border and lable around.
 
+  <a >
+    <img src="Code/EyeDetection/Images/EyeDetection.png" alt="Logo" width="33%">
+  </a>
+  
+Smile Detection
+* Below image gives the output information of the Smile Detection code provided in the above folder. Smile will be detected and made a border and lable around.
+
+  <a >
+    <img src="Code/SmileDetction/Images/SmileDetction.png" alt="Logo" width="33%">
+  </a>
+
+Face Eye Smile Detection
+* Below image gives the output information of the Face-Eye-Smile Detection code provided in the above folder. Faces will be detected and made a border and lable around, Eyes will be detected and made a border and lable around and Smile will be detected and made a border and lable around.
+
+  <a >
+    <img src="Code/FaceEyeSmileDetection/Images/FaceEyeSmileDetection.png" alt="Logo" width="33%">
+  </a>
 
 ### Built With
 
@@ -66,9 +85,9 @@ You will be directed to the respective page for purchase / learning.
 * [Pi Camera](https://www.raspberrypi.org/products/camera-module-v2/)
 * [Python](https://www.python.org/)
 
-Python Libraries Used.
-* [NumPy](https://numpy.org/)
+Libraries Used.
 * [Open CV](https://docs.opencv.org/master/d3/df2/tutorial_py_basic_ops.html)
+* Haarcascade files are provided in the respective folder.
 
 
 
@@ -100,7 +119,7 @@ This is how you can follow the instructions on setting up the project and runnin
 1. get a local copy up and running follow cloning steps.
 
    ```sh
-   git clone https://github.com/VenuDhanekula/ObjectDetection_RaspberryPi_Python.git
+   git clone https://github.com/VenuDhanekula/FaceFeatureDetection_RaspberryPi_Python.git
    ```
    
 
