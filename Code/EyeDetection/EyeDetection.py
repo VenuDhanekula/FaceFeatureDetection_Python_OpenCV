@@ -15,7 +15,7 @@ def main():
 
             eyes = eye_cascade.detectMultiScale(gray)
                 
-#After detecting the face it checks for the eye features from the face area
+#Detects for the eye features in the Image
             for (ex,ey,ew,eh) in eyes:
                 cv2.rectangle(img,(ex,ey),(ex+ew,ey+eh),(0,255,0),2)
                 cv2.putText(img,"Eye",(ex,ey),cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0,255,0))
