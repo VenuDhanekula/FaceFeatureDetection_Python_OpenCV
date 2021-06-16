@@ -15,7 +15,7 @@ def main():
 
             smile = smile_cascade.detectMultiScale(gray,scaleFactor=1.3,minNeighbors=22,minSize=(25, 25))
                 
-#After detecting the face it checks for the Smile features
+#Detects for the Smile features
             for (sx,sy,sw,sh) in smile:
                 cv2.rectangle(img,(sx,sy),(sx+sw,sy+sh),(0,255,255),2)
                 cv2.putText(img,"Smile",(sx,sy),cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0,255,255))
