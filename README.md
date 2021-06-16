@@ -87,7 +87,7 @@ You will be directed to the respective page for purchase / learning.
 
 Libraries Used.
 * [Open CV](https://docs.opencv.org/master/d3/df2/tutorial_py_basic_ops.html)
-* Haarcascade files are provided in the respective folder.
+* [Haarcascade files](https://github.com/VenuDhanekula/HaarCascade_Files)
 
 
 
