@@ -12,6 +12,8 @@ def main():
         if ret == True:
 #converting frame(img i.e BGR) to gray Image
             gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+    
+#Detects for the Face features in the Image
             faces = face_cascade.detectMultiScale(gray, scaleFactor=1.2, minNeighbors=5, minSize=(100, 100), flags=cv2.CASCADE_SCALE_IMAGE)     
             for (x,y,w,h) in faces:
                 cv2.rectangle(img,(x,y),(x+w,y+h),(255,0,0),2)
