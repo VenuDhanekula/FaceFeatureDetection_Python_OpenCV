@@ -44,6 +44,18 @@
 <!-- ABOUT THE PROJECT -->
 ## Project Details
 
+Face Detection
+* Below image gives the output information of the Face Detection code provided in the above folder. Faces will be detected and made a border and lable around.
+
+  <a >
+    <img src="Code/FaceDetection/Images/FaceDetect.png" alt="Logo" width="33%">
+  </a>
+
+* Below image gives the output information of the multiple Face Detection using the above code. And can count the number of faces available in the image.
+
+  <a >
+    <img src="Code/FaceDetection/Images/MultiFaceDetect.png" alt="Logo" width="33%">
+  </a>
 
 
 ### Built With
@@ -91,22 +103,6 @@ This is how you can follow the instructions on setting up the project and runnin
    git clone https://github.com/VenuDhanekula/ObjectDetection_RaspberryPi_Python.git
    ```
    
-<!-- USAGE EXAMPLES -->
-## Work Flow
-
-Steps Followedin the program
-
-1. Input: Capture video through webcam.
-2. Add the video stream in image frames.
-3. Convert the imageFrame in BGR(RGB color space represented as three matrices of red, green and blue with integer values from 0 to 255) to HSV(hue-saturation-value) color space.
-Hue escribes a color in terms of aturation, represents the amount of gray color in that color and value describes the brightness or intensity of the color. This can be represented as three matrices in the range of 0-179, 0-255 and 0-255 respectively.
-4. Find the range of each color and create the corresponding mask.
-5. Morphological Transform: Dilation, to remove noises from the images.
-6. Bitwise_and between the image frame and mask is performed to specificaly detect that particular color and discrad others.
-7. Create contour for the individual colors to display the detected colored region distinguishly.
-8. Output: Detection of the colors in real-time.
-
-
 
 
 <!-- CONTACT -->
