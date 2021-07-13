@@ -13,7 +13,7 @@
 </p>
 
 <!-- COLORDETECTION RASPBERRYPI PYTHON -->
-# FaceFeatureDetection In RaspberryPi Using Python
+# FaceFeatureDetection Using Python OpenCV
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
@@ -119,7 +119,7 @@ This is how you can follow the instructions on setting up the project and runnin
 1. get a local copy up and running follow cloning steps.
 
    ```sh
-   git clone https://github.com/VenuDhanekula/FaceFeatureDetection_RaspberryPi_Python.git
+   git clone https://github.com/VenuDhanekula/FaceFeatureDetection_Python_OpenCV.git
    ```
    
 
